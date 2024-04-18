@@ -14,9 +14,8 @@ theme_plotly = None
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-# Side bar
-def sidebar():
-    st.sidebar.header("Dashboard")
+
 
 if __name__ == "__main__":
-    sidebar()
+    # Side bar
+    st.sidebar.header("Dashboard")
